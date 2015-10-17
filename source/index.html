@@ -1,0 +1,28 @@
+<html>
+<body>
+<style>
+#holder { border: 10px dashed #ccc; width: 300px; height: 300px; margin: 20px auto;}
+#holder.hover { border: 10px dashed #333; }
+</style>
+
+<h1 id="mainTitle"></h1>
+<div id="shortDescription"></div>
+<pre id="debug"></pre>
+<div id="holder">
+    <pre>
+        <ul id="nodeList">
+            <li id="folderNodes"/>
+            <li id="fileNodes"/>
+            <ul>
+                <li id="textFileNodes"/>
+                <li id="videoFileNodes"/>
+                <li id="audioFileNodes"/>
+                <li id="archiveFileNodes"/>
+            </ul>
+        </ul>
+    </pre>
+</div>
+<pre id="fileList"></pre>
+<script src="./dropbox.js" charset="utf-8"></script>
+</body>
+</html>
